@@ -13,12 +13,12 @@ const Post = () => {
     <Layout title={router.query.title} footer={false}>
       <div className="text-center">
         <img
-          src={currentPost.imageURL}
+          src="./cuadro_eurocopa.png"
           alt=""
           style={{ width: "50%" }}
           className="img-fluid"
         />
-        <p className="p-4">{currentPost.content}</p>
+        <p className="p-4">"Hola Caracola"</p>
       </div>
     </Layout>
   );
